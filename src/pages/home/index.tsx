@@ -113,9 +113,6 @@ export default function Home() {
                 </div>
               </a>
             </Link>
-            {/* <Link href="/pedrohenriquelimasilva_curriculum.pdf" legacyBehavior> */}
-            {/* <span>https://drive.google.com/file/d/17S6YXKCXxQygNgZBcT8Lomw0iT6Zd9yE/view?usp=sharing</span> */}
-            {/* <a target="_blank" download> */}
             <button
               onClick={() => {
                 setModal(true);
@@ -154,7 +151,7 @@ export default function Home() {
                     X
                   </button>
                   <div
-                    className="absolute transform flex w-[140px] h-[165px] -top-[15%] left-1/2 -translate-x-1/2 -translate-y-1/3
+                    className="absolute transform flex w-[140px] h-[165px] -top-[25%] md:-top-[15%] left-1/2 -translate-x-1/2 -translate-y-1/3
                    rounded-full p-2 bg-custom-dark-80-opacity border-4 border-custom-dark-80-opacity"
                   >
                     <Image
