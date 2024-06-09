@@ -1,11 +1,11 @@
-import Link from 'next/link'
-import { BoxComponent } from '../box'
+import Link from 'next/link';
+import { BoxComponent } from '../box';
 
 interface ProjectProps {
-  techs: Array<string>
-  name: string
-  link: string
-  description: string
+  techs: Array<string>;
+  name: string;
+  link: string;
+  description: string;
 }
 
 export function Project({ techs, name, link, description }: ProjectProps) {
@@ -27,5 +27,5 @@ export function Project({ techs, name, link, description }: ProjectProps) {
         </a>
       </Link>
     </>
-  )
+  );
 }

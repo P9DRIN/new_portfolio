@@ -1,8 +1,8 @@
-import { ReactNode } from 'react'
+import { ReactNode } from 'react';
 
 interface BoxComponentProps {
-  children?: ReactNode
-  className?: string
+  children?: ReactNode;
+  className?: string;
 }
 
 export function BoxComponent({ children, className }: BoxComponentProps) {
@@ -10,5 +10,5 @@ export function BoxComponent({ children, className }: BoxComponentProps) {
     <>
       <div className={`${className} shadow-lg`}>{children}</div>
     </>
-  )
+  );
 }

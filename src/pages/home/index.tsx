@@ -1,15 +1,15 @@
-import { Project } from '@/components/project/project'
-import Head from 'next/head'
-import Link from 'next/link'
-import { FaGithub, FaWhatsapp } from 'react-icons/fa'
-import { RiExternalLinkLine } from 'react-icons/ri'
-import { BsLinkedin } from 'react-icons/bs'
-import { LuMailPlus } from 'react-icons/lu'
-import Image from 'next/image'
-import { useState } from 'react'
+import { Project } from '@/components/project/project';
+import Head from 'next/head';
+import Link from 'next/link';
+import { FaGithub, FaWhatsapp } from 'react-icons/fa';
+import { RiExternalLinkLine } from 'react-icons/ri';
+import { BsLinkedin } from 'react-icons/bs';
+import { LuMailPlus } from 'react-icons/lu';
+import Image from 'next/image';
+import { useState } from 'react';
 
 export default function Home() {
-  const [modal, setModal] = useState(false)
+  const [modal, setModal] = useState(false);
 
   return (
     <>
@@ -118,7 +118,7 @@ export default function Home() {
             {/* <a target="_blank" download> */}
             <button
               onClick={() => {
-                setModal(true)
+                setModal(true);
               }}
               className="cursor-pointer flex items-center gap-2 text-custom-gray-hover hover:text-custom-white-hover"
             >
@@ -141,13 +141,13 @@ export default function Home() {
                 <button
                   className="absolute w-screen h-full top-0 left-0 bg-custom-dark opacity-80"
                   onClick={() => {
-                    setModal(false)
+                    setModal(false);
                   }}
                 />
                 <div className="absolute h-1/5 w-1/2 top-1/2 left-1/2 p-6 transform -translate-x-1/2 -translate-y-1/3 bg-custom-dark-hover">
                   <button
                     onClick={() => {
-                      setModal(false)
+                      setModal(false);
                     }}
                     className="border font-medium hover:bg-custom-white hover:text-custom-dark px-3 py-1 rounded-md transition-colors"
                   >
@@ -197,5 +197,5 @@ export default function Home() {
         </div>
       </div>
     </>
-  )
+  );
 }
