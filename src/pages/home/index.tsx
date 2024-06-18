@@ -176,7 +176,7 @@ export default function Home() {
                       </a>
                     </Link>
                     <Link
-                      href="https://drive.google.com/file/d/17S6YXKCXxQygNgZBcT8Lomw0iT6Zd9yE/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1c8baLV0QYPeUTo2-Bpild0s83v0kRBZj/view"
                       legacyBehavior
                     >
                       <a
